@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.title{
+  font-family: 'Nunito';
+  font-size: 40px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.87);
+
+  @media (max-width: $md2) {
+    text-align: center;
+  }
+}

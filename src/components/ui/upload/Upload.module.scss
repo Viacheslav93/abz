@@ -1,0 +1,42 @@
+.upload {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    margin-top: -2px;
+}
+.hidden {
+    z-index: 10;
+    position: absolute;
+    width: 380px;
+    height: 54px;
+    top: 0px;
+    left: 0;
+    opacity: 0;
+}
+.inputUpload {
+    width: 297px;
+    border-radius: 0 4px 4px 0px ;
+    pointer-events: none;
+}
+.button {
+    padding: 13px 15px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid rgba(0, 0, 0, .87);
+    color: rgba(0, 0, 0, .87) !important;
+    pointer-events: none;
+}
+
+.helpers {
+    position: absolute;
+    bottom: -20px;
+    left: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7E7E7E;
+}
+.error{
+    color: #CB3D40;
+}
